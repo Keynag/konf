@@ -1,0 +1,55 @@
+#МОЙ КОНФИГ
+
+# ширина
+width=388
+# высота
+height=370
+
+# скрыть подменю
+no_actions=true
+# скрыть полосу прокрутки
+hide_scroll=true
+
+# количество колонок
+#columns=1
+# размер иконок
+image_size=36
+# надпись в строке поиска
+prompt=поиск
+# терминал по умалчанию
+term=alacritty
+
+______________________________________________________________________________
+
+
+#ОСНОВНОЕ
+
+insensitive=false включает поиск без учета регистра
+#filter_rate=RATE скорость обновления результатов в милисекундах
+#sort_order=ORDER порядок сортировки, default and alphabetical (по алфавиту)
+#matching=contains или fuzzy режим сопоставления
+#dynamic_lines=true вроде должен сокращаться под результаты, у меня не работает
+#exec_search=true поиск по двум энтерам, у меня не работает
+
+
+#ВНЕШНИЙ ВИД
+
+xoffset=763
+#x=OFFSET то же самое что и xoffset
+yoffset=250
+#y=OFFSET то же самое что и yoffset
+#lines=LINES Задает высоту в количестве строк вместо пикселей
+#hide_search=false скрывать панель поиска
+#gtk_dark=true включает темный вариант темы если такая есть
+#password=* заменяет все на указанный символ, аля пароль
+#orientation=horizontal #или vertical
+#allow_markup=false какая то хрень с разметкой
+#allow_images=false какая то хрень с обработкой изображений
+
+
+#ПОЛОЖЕНИЕ
+
+#layer=LAYER слой на котором будет запущен wofi: background, bottom, top, overlay
+#location=center 0 #положение wofi center 0, top_left 1, top 2, top_right 3, right 4, bottom_right 5, bottom 6, bottom_left 7, left 8
+#normal_window=false #если поставить true то запустит wofi в обычном окне
+

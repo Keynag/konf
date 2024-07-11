@@ -1,0 +1,24 @@
+/* общие параметры */
+*{
+  border:none;
+}
+
+/* параметры для окна */
+window {
+  border-radius: 8px;
+}
+
+/* параметры для окна ввода */
+#input {
+  margin: 0px 0px 6px 0px;
+  border-radius: 8px;
+}
+
+
+/* параметры для выделенного пункта */
+#entry:selected {
+  border-radius: 8px;
+  padding: 0px;
+  border: none;
+}
+

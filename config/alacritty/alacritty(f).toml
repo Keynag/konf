@@ -1,0 +1,41 @@
+[font]
+size = 12.0
+
+[font.normal]
+family = "Hack Nerd Font"
+style = "Bold"
+
+[scrolling]
+history = 15000
+
+[window]
+opacity = 0.93
+
+#Flat Remix by Keyn73
+[colors.primary]
+background = '#22252C'
+foreground = '#FFFFFF'
+
+[colors.cursor]
+text = '#170912'
+cursor = '#FFFFFF'
+  
+[colors.normal]
+black = '#1F2229'
+red = '#D41919'
+green = '#5CD4E4'
+yellow = '#FEA44C'
+blue = '#367bf0'
+magenta = '#BF2E5D'
+cyan = '#49AEE6'
+white = '#E6E6E6'
+
+[colors.bright]
+black = '#8C42AB'
+red = '#EC0101'
+green = '#60DDEE'
+yellow = '#FF8A18'
+blue = '#277FFF'
+magenta = '#D71655'
+cyan = '#05A1F7'
+white = '#FFFFFF'
