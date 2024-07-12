@@ -5,7 +5,7 @@
 #Обои
 #wal -e --cols16 -i ~/wallpapers
 
-wal -q --cols16 -i ~/wallpapers
+wal -qi ~/wallpapers
 
 if command -v wal > /dev/null 2>&1; then
     wal -Rqe
