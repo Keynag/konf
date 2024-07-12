@@ -10,6 +10,10 @@ sudo xbps-install mesa-dri mesa-dri-32bit mesa-vulkan-radeon mesa-vulkan-radeon-
 
 sudo xbps-install wofi Waybar grim slurp mako alacritty pcmanfm transmission wl-clipboard gammastep pywal gsimplecal-gtk3 yad dbus swaybg polkit wob;
 
+mkdir -p /etc/pipewire/pipewire.conf.d
+sudo ln -s /usr/share/examples/pipewire/20-pipewire-pulse.conf /etc/pipewire/pipewire.conf.d/
+sudo ln -s /usr/share/examples/wireplumber/10-wireplumber.conf /etc/pipewire/pipewire.conf.d/
+
 sudo ln -s /etc/sv/dbus /var/service
 sudo ln -s /etc/sv/polkitd /var/service
 sudo ln -s /etc/sv/elogind /var/service
