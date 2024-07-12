@@ -8,7 +8,7 @@ sudo xbps-install noto-fonts-ttf dejavu-fonts-ttf google-fonts-ttf liberation-fo
 
 sudo xbps-install mesa-dri mesa-dri-32bit mesa-vulkan-radeon mesa-vulkan-radeon-32bit vulkan-loader-32bit vulkan-loader amdvlk amdvlk-32bit mesa-vaapi mesa-vaapi-32bit mesa-vdpau mesa-vdpau-32bit lrzip unrar unzip p7zip squashfs-tools engrampa mpv firefox feh openjdk-src openjdk timeshift wireguard wireguard-tools openresolv audacious audacious-plugins corectrl steam gparted bleachbit gnome-calculator telegram-desktop xdg-desktop-portal-gtk;
 
-sudo xbps-install wofi Waybar grim slurp mako alacritty pcmanfm transmission wl-clipboard gammastep pywal gsimplecal-gtk3 yad dbus swaybg polkit wob;
+sudo xbps-install wofi Waybar grim slurp mako alacritty pcmanfm transmission-gtk wl-clipboard gammastep pywal gsimplecal-gtk3 yad dbus swaybg polkit wob;
 
 mkdir -p /etc/pipewire/pipewire.conf.d
 sudo ln -s /usr/share/examples/pipewire/20-pipewire-pulse.conf /etc/pipewire/pipewire.conf.d/
