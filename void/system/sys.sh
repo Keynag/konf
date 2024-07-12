@@ -13,6 +13,7 @@ sudo xbps-install wofi Waybar grim slurp mako alacritty pcmanfm transmission wl-
 sudo ln -s /etc/sv/dbus /var/service
 sudo ln -s /etc/sv/polkitd /var/service
 sudo ln -s /etc/sv/elogind /var/service
+sudo ln -s /etc/sv/chronyd /var/service
 
 cp -rT ~/konf/config ~/.config/
 
