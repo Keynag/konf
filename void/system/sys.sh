@@ -1,6 +1,6 @@
 #!/bin/bash
 
-sudo xbps-install void-repo-multilib && sudo xbps-install -Suy;
+sudo xbps-install -Suy;
 
 sudo xbps-install linux-firmware-amd linux-firmware-intel xorg-server-xwayland xorg-server-xwayland-32bit wayland wlroots wayland-32bit wayland-protocols pcre2 json-c pango cairo meson zsh-autosuggestions zsh-history-substring-search zsh-syntax-highlighting qt5-wayland qt6-wayland mesa mesa-32bit mesa-demos Vulkan-Tools Vulkan-ValidationLayers pipewire pipewire-32bit wireplumber pavucontrol zramen curl seatd elogind gdk-pixbuf gdk-pixbuf-32bit;
 
