@@ -1,0 +1,96 @@
+//---[MyWaybar73]---//
+/////////////////////
+{
+    "layer": "top",
+    "position": "top",
+    "margin-top": 4,
+    "margin-right": 6,
+    "margin-left": 5,
+    "output": "AOC 2590G4 0x0000098D",
+
+    "modules-left": ["hyprland/workspaces"],
+    "modules-center": ["clock"],
+    "modules-right": ["tray","hyprland/language","wireplumber"],
+
+    
+//Воркспейс
+"hyprland/workspaces": {
+  "disable-scroll": false,
+  "all-outputs":true,
+  "format": "{icon}",
+  "format-icons": {
+	"1": "1",
+	"2": "2",
+    "3": "3",
+    "4": "B",
+    "5": "5",
+	"8": "B",
+    "urgent": "",
+    "focused": "",
+    "default": ""
+	}
+},
+
+//Трэй
+"tray": {
+	"icon-size": 16,
+	"spacing": 6,
+    "tooltip": false
+},
+
+//Лангуаге
+"hyprland/language": {
+    "format": "{}",
+    "format-en": "en",
+    "format-ru": "ru"
+},
+
+//Часы
+"clock": {
+	"interval": 1,
+	"format": "{:%R}",
+	"format-alt": "{:%T}",
+    "on-click-middle": "gsimplecal",
+    "tooltip": false
+},
+
+//Загрузка проца
+//"cpu": {
+//	"interval": 3,
+//	"format": "C {usage}% ",
+//	"on-click": "alacritty -e btop",
+//   "tooltip": false
+//},
+
+//Загрузка озу
+//"memory": {
+//	"interval": 3,
+//	"format": " M {}%",
+//    "tooltip": false
+//},
+
+//Температура проца
+//"temperature": {
+//    "interval": 3,
+//    "cooling device": 12,
+//    "critical-threshold": 90,
+//    "format-critical": "{temperatureC}°C {icon}",
+//    "format": "{temperatureC}°C {icon}",
+//    "format-icons": ["", "", ""],
+//    "tooltip": false
+//},
+
+//Wireplumber
+"wireplumber": {
+	"max-volume": 99,
+	"scroll-step": 1,
+	"format": "{volume}",
+	//"format-icons": [" ", " ", " "],
+	"format-muted": " 󰖁 ",
+	"on-click": "pavucontrol",
+	"on-click-middle": "pactl set-sink-mute 0 toggle",
+	"tooltip": false
+},
+
+}
+
